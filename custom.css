@@ -1,0 +1,67 @@
+/* Container mittig */
+.chapterThumbTextContainer {
+    background: none !important;
+    text-align: center !important;
+}
+
+/* Zeit sichtbar, größer und hervorgehoben */
+.chapterThumbTextContainer h2.chapterThumbText {
+    display: inline-block !important;
+    background: #00000099;
+    padding: 0.2em 0.5em;
+    border-radius: 0.25em;
+    font-size: 1.2em;  /* Zeit deutlich größer */
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+
+/* Kapitelname ausblenden */
+.chapterThumbTextContainer .chapterThumbText-dim {
+    display: none !important;
+}
+
+/* Schrift "Nächste Folge wird in ..." kleiner machen */
+.upNextDialog-nextVideoText {
+    font-size: 1.2em !important;  /* ca. 50% kleiner */
+}
+
+/* Sterne, Dauer und Endzeit ausblenden */
+.upNextDialog-mediainfo,
+.starRatingContainer,
+.endsAt,
+.mediaInfoItem {
+    display: none !important;
+}
+
+/* Gesamter Block anpassen */
+.upNextDialog {
+    border-radius: 1em !important;     /* abgerundete Ecken */
+    overflow: hidden;                  /* saubere Rundungen */
+    padding: 1em !important;           /* etwas Abstand innen */
+    height: auto !important;           /* Höhe passt sich an Inhalt an */
+    min-height: unset !important;
+}
+
+/* Buttons mittig unter dem Text */
+.upNextDialog-buttons {
+    justify-content: center !important;
+    text-align: center !important;
+    margin-top: 1em !important;
+}
+
+/* Buttons selber etwas schöner */
+.upNextDialog-button {
+    margin: 0 0.5em !important;
+    border-radius: 0.5em !important;
+}
+
+/* Autoren ausblenden */
+.detailsGroupItem.writersGroup {
+    display: none !important;
+}
+
+/* Studios ausblenden */
+.detailsGroupItem.studiosGroup {
+    display: none !important;
+}
